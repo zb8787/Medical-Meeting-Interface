@@ -124,4 +124,5 @@ def interactive_diarization(similarity_dict, wav, wav_splits, x_crop=5, show_tim
     plt.show()
 interactive_diarization(similarity_dict,wav,wav_splits)
 
-#credit to https://github.com/resemble-ai/Resemblyzer
+#source https://github.com/resemble-ai/Resemblyzer
+#NOTE: the original code has been modified
