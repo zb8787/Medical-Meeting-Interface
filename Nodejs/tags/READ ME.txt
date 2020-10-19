@@ -1,0 +1,8 @@
+step 1: go to a folder (the package needs to be installed locally)
+step 2: npm init --yes
+step 3: npm i express
+step 4: install postman on chrome 
+step 5: install npm joi
+
+https://github.com/expressjs/express
+https://www.npmjs.com/package/express
