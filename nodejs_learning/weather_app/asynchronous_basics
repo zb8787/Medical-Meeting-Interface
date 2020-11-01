@@ -1,0 +1,15 @@
+asynchronous_basics:
+non blocking 
+do other things while waiting for some long processing io to complete 
+
+to do a lot of things in the same time 
+
+no asynchronous function is going to run after the main funtion is done 
+other tread in node API which is c++ scripts 
+
+weather app
+http://api.weatherstack.com/current?access_key=2cd69193d4859ed163ff0223b80b52c5&query=37.8267,-122.7233
+In firefox, we can see a JSON file, Raw Data. In chrome, there is only Raw Data.
+
+npm init -y
+automatic generates package json file 

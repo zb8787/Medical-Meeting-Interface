@@ -1,0 +1,7 @@
+JSON file manage all the dependency which the application rely to run.
+The package installed 
+1. package-lock
+2. dependency: with "validator"
+3. the code in node_modules (no editing on this)
+You can delete the node_modules for uploading to github, as the mode_module can get very large.
+You can retrieve that by npm install inside the directory.

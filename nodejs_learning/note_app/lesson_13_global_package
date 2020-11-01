@@ -1,0 +1,8 @@
+example: nodemon
+nom install nodemon@version -g
+-g means globally 
+which doesn't show up in dependency in package.json 
+run: nodemon -v 
+to see nodemon version 
+
+nodemon app.js

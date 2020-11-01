@@ -1,0 +1,21 @@
+index.html can be removed after handle bar file is created 
+
+index.html
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/style.css">
+        <script src = "/js/app.js"></script>
+    </head>
+
+    <body>
+        <h1>From a static File</h1>
+    </body>
+</html>
+
+handle bar set up:
+npm i hbs
+app.set('view engine', 'hbs')
+in app.js 
+the handle bar needs to be in a folder called views
+inside: index.hbs
