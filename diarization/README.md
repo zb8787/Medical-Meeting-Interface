@@ -1,4 +1,4 @@
-# Diarization
+# Diarization and Transcription
 
 Diariation_demo.py:\
 This is a diarization demo, the input takes an audio file sample from a podcast with two speakers.\
