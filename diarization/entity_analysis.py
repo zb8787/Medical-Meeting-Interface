@@ -42,7 +42,9 @@ def classify_text(text):
     #for category in categories
 
 text_entity_analysis(text)
-
+print('TEXT: ',text)
+print('CLASS:')
+classify_text(text)
 
 
 # #Classify text
