@@ -20,7 +20,7 @@ Features:
   * not show up in the script
 
 ## Architecture
-![Architecture](/Flow_diagrams/Architecture.jpg)
+![update](/Flow_diagrams/update.jpg)
 
 ## Node.js architecture
 ![Front_end](/Flow_diagrams/Front_end.jpg)
