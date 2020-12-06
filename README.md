@@ -55,6 +55,10 @@ Resemblyzer:
 * Open web browser and try the website
   * http://localhost:8080
 
+## Additional Set Up
+### The website will not run with the above set up
+  
+
 # Instructions & ScreenShots
 ## Nevigating the Website
 ![7](/screenshoots/7.PNG)
