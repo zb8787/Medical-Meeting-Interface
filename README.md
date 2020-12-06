@@ -22,7 +22,7 @@ Features:
 ## Architecture
 ![Architecture](/Flow_diagrams/Architecture.jpg)
 
-### Node.js architecture
+## Node.js architecture
 ![Front_end](/Flow_diagrams/Front_end.jpg)
 ![Back_end](/Flow_diagrams/Back_end.jpg)
 
@@ -43,8 +43,17 @@ Resemblyzer:
 
 
 ## Website 
-
-
+* Set up Node.js environment 
+  * https://nodejs.org/en/
+* Download website folder
+* Open two terminals and go to folder client and server seperately
+  * `npm init`
+  * This will install all the neccessary dependencies from package.json
+* After the dependencies are installed in both folders
+  * `npm run start`
+  * This will run the starting script for both files 
+* Open web browser and try the website
+  * http://localhost:8080
 
 # Instructions & ScreenShots
 
