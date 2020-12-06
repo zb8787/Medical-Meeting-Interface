@@ -56,6 +56,10 @@ Resemblyzer:
   * http://localhost:8080
 
 # Instructions & ScreenShots
+## Nevigating the Website
+Register an account.
+![1](/screenshoots/1.PNG)
+
 
 
 
