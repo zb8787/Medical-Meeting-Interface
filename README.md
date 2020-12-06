@@ -56,8 +56,18 @@ Resemblyzer:
   * http://localhost:8080
 
 ## Additional Set Up
-### The website will not run with the above set up
+### The website will not run with the above set up, for two reasons: 1, environment variables are not set up and the database is not set up in the correct form.
+To solve environmental variable issue:
+create an `.env` file to store all the environmental varibles
+* `SECRETKEY = <Your secret>`
+* database URL
+  * The database used in developing is https://www.mongodb.com/cloud/atlas
+  * `MONGODB_URI = mongodb+srv://<user>:<password>@cluster0.u1pj1.mongodb.net/<database name>`
+  * You can use any database of your choice, as long as it is setup correctly
   
+To setup the databse:
+* Download Postman: https://www.postman.com/
+
 
 # Instructions & ScreenShots
 ## Nevigating the Website
