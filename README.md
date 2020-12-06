@@ -19,5 +19,11 @@ Features:
   * show up in the script
   * not show up in the script
 
-## architecture
+## Architecture
 ![Overall_Architecture](/Flow_diagrams/Overall_Architecture.jpg)
+
+### Node.js architecture
+Front end: client 
+![Front_end](/Flow_diagrams/Front_end.jpg)
+Back end: server
+![Back_end](/Flow_diagrams/Back_end.jpg)
