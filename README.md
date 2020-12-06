@@ -33,8 +33,18 @@ Website demo link
 Google 
 <>
 
-Resemblzer:
+Resemblyzer:
 <>
+
+# Deploy
+## google speech recognition 
+
+## Resemblyzer
+
+
+## Website 
+
+
 
 # Instructions & ScreenShots
 
