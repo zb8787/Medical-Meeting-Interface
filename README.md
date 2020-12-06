@@ -57,10 +57,11 @@ Resemblyzer:
 
 # Instructions & ScreenShots
 ## Nevigating the Website
+![7](/screenshoots/7.PNG)
 Register an account. You can either be a doctor or a patient.
 ![1](/screenshoots/1.PNG)
 Login into the account.
-![2](/screenshoots/2.PNG)
+![8](/screenshoots/8.PNG)
 View your account information.
 ![6](/screenshoots/6.PNG)
 Upload Audio file, Select label and Create own Label. You have to Upload an audio file in order to submit the page.
