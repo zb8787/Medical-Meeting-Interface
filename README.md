@@ -1,20 +1,21 @@
 # Diarized Speech Recognition System for Patient-doctor Communication 
-## Introductions
-Focus: This project focuses on improving the quality of telecommunications between doctor and patient.
+## Introduction
+Focus: This project focuses on improving the quality of telecommunications between doctors and patients.
 
 Motivation: Due to COVID-19, almost all doctor appointments start from a phone call examination. The current system can be improved to facilitate better patient and doctor communication. 
 
-Need: A better way to examine the phone call examination content, which optimizes virtual medical appointments
+Need: A better way to understand phone call or virtual examination content, and in turn optimizing virtual medical appointments.
 
-Goal: An interface for patients and doctors where they can upload recorded telecommunication for further analysis
+Goal: An interface for patients and doctors to upload recorded telecommunications, and perform further analysis on the recordings.
 
 Features:
-* Establish users accounts (users will be categorized into patient and doctor)
+* Establish users accounts (users are categorized into patients and doctors)
 * Upload audio files to the website
-* Select topics of interests and enter personalized topic of interest
-* Transcribe the audio files into text file 
-* Return user the transcribed script with highlighted contents
-  * highlighted contents are related with the labels which the user selected
+* Select topics (tags) of interests and enter personalized topic of interest
+* Perform speech diarization, splitting the audio into who is speaking and when
+* Transcribe the audio files into text files with diarized speakers
+* Return to user the transcribed script with highlighted contents
+  * highlighted contents are related with the labels (tags) which the user selected
 * Return user labels in two categories 
   * show up in the script
   * not show up in the script
