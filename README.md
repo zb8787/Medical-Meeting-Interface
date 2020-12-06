@@ -73,10 +73,11 @@ To setup the databse:
   * The form follows such:
   * Category: overarching category.
     * categoris including: general, dental, heart disease
+  * Description: topics under the categories
+    * description under general for doctor could include Emergency room, Allergy history, Hospital admission, Implantation of medical device, Family history 
+  * Owner: the object ID of the corresponding adminstrative account 
   * since the default status is always completed, no need to input completed
  
-
-
 # Instructions & ScreenShots
 ## Nevigating the Website
 ![7](/screenshoots/7.PNG)
@@ -93,6 +94,7 @@ A successful case would look like this before submit.
 The result page will look like this, according to the previous submission.
 ![5](/screenshoots/5.PNG)
 
+# Future steps
 
 
 
