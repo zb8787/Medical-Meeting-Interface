@@ -1,2 +1,2 @@
-# Medical-Meeting-Interface
-A central repo for the speech diarization for medical applications project
+# Diarized Speech Recognition System for Patient-doctor Communication 
+
