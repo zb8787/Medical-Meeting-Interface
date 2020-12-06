@@ -72,7 +72,7 @@ To setup the databse:
   * Owner: the object ID of the corresponding adminstrative account 
   * since the default status is always completed, no need to input completed
  
-# Instructions & ScreenShots
+# Instructions & Screenshots
 ## Navigating the Website
 ![7](/screenshoots/7.PNG)
 Register an account. You can either be a doctor or a patient.
