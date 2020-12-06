@@ -25,3 +25,16 @@ Features:
 ### Node.js architecture
 ![Front_end](/Flow_diagrams/Front_end.jpg)
 ![Back_end](/Flow_diagrams/Back_end.jpg)
+
+# Demo
+Website demo link 
+<>
+Google 
+<>
+Resemblzer:
+<>
+
+# Instructions & ScreenShots
+
+
+
