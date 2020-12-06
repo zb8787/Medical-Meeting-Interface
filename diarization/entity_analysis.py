@@ -10,7 +10,9 @@ client = language.LanguageServiceClient()
 
 fullpath = filepath + audio_file_name
 
-text = 'How many pills should I take each day? You should take two pills every six hours, up to three times.'
+#text = 'How many pills should I take each day? You should take two pills every six hours, up to three times.'
+f = open(fullpath)
+text = f.read()
 def text_entity_analysis(text):
 #Analyzes the entities of a text file
     document = types.Document(
@@ -45,29 +47,4 @@ text_entity_analysis(text)
 print('TEXT: ',text)
 print('CLASS:')
 classify_text(text)
-
-
-# #Classify text
-# f = open(fullpath)
-# t = f.read()
-# print(t)
-# classify_text(t)
-# f.close()
-
-##Search transcript for string, return 1 line
-# f = open(fullpath)
-# for line in f:
-    # if "May" in line: print(line)
-# f.close()
-
-##Search transcript for string, return 1 line before, up to 3 lines after
-# f = open(fullpath)
-# SL = f.readlines()
-# for i, line in enumerate(SL):
-    # if "May" in line:
-        # for L in SL[i-1:i+3]:
-            # print(L)
-
-
-
-# f.close()
+f.close()
