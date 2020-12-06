@@ -95,6 +95,14 @@ The result page will look like this, according to the previous submission.
 ![5](/screenshoots/5.PNG)
 
 # Future steps
+* Incorporate sentiment analysis into the website
+* Achieve full automation with the website 
+  * The website is currently using a sudo text file inside the server folder. The file name is: output_script_example
+* Deploy the website
+  * Due to the way heroku is setup, structural changes need to be made to combine server and client
+* Have a more completed preset topic database 
+  * Currently there is only three main categories with overall 35 preset topics 
+  * More research needed to create a set of well-rounded topics
 
 
 
