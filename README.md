@@ -27,20 +27,13 @@ Features:
 ![Front_end](/Flow_diagrams/Front_end.jpg)
 ![Back_end](/Flow_diagrams/Back_end.jpg)
 
-# Demo
-Website demo link 
-<>
-
-Google 
-<>
-
-Resemblyzer:
-<>
-
 # Deploy
-## google speech recognition 
+## Google sentiment analysis
 
 ## Resemblyzer
+* Explored with resemblyzer
+  * Which uses pre-trained LSTM embeddings to compute similarity matrix
+  * The result is a similarity metric for each speaker at n moment in time
 
 
 ## Website 
@@ -73,14 +66,14 @@ To setup the databse:
 * Under both administrative account: generate preset topics 
   * The form follows such:
   * Category: overarching category.
-    * categoris including: general, dental, heart disease
+    * categories including: general, dental, heart disease
   * Description: topics under the categories
     * description under general for doctor could include Emergency room, Allergy history, Hospital admission, Implantation of medical device, Family history 
   * Owner: the object ID of the corresponding adminstrative account 
   * since the default status is always completed, no need to input completed
  
 # Instructions & ScreenShots
-## Nevigating the Website
+## Navigating the Website
 ![7](/screenshoots/7.PNG)
 Register an account. You can either be a doctor or a patient.
 ![1](/screenshoots/1.PNG)
@@ -94,16 +87,16 @@ A successful case would look like this before submit.
 ![4](/screenshoots/4.PNG)
 The result page will look like this, according to the previous submission.
 ![5](/screenshoots/5.PNG)
+## Resemblyzer
 
 # Future steps
 * Incorporate sentiment analysis into the website
-* Achieve full automation with the website 
+* Achieve full automation within the website 
   * The website is currently using a sudo text file inside the server folder. The file name is: output_script_example
 * Deploy the website
   * Due to the way heroku is setup, structural changes need to be made to combine server and client
-* Have a more completed preset topic database 
-  * Currently there is only three main categories with overall 35 preset topics 
-  * More research needed to create a set of well-rounded topics
+* Have a more complete preset topic database 
+  * Currently there are only three main categories with overall 35 preset topics
 
 
 
