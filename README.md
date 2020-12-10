@@ -29,12 +29,14 @@ Features:
 
 # Deploy
 ## Google sentiment analysis
+* Follow the official Google Natural API quickstart guide to create an account and have access the API: https://cloud.google.com/natural-language/docs/quickstarts
 
 ## Resemblyzer
 * Explored with resemblyzer
   * Which uses pre-trained LSTM embeddings to compute similarity matrix
   * The result is a similarity metric for each speaker at n moment in time
-
+* Make sure to install resemblyzer, pytorch, and matplotlib
+* Clone the repo and run the diarization_demo.py script from your terminal located in the diarization directory.
 
 ## Website 
 * Set up Node.js environment 
