@@ -46,12 +46,12 @@ Features:
 * Run the tag_search.py script. Script will perform search with and without context.
 
 ## Resemblyzer
-* Explored with resemblyzer
-  * Which uses pre-trained LSTM embeddings to compute similarity matrix
+* Explored diarization with resemblyzer
+  * Uses pre-trained LSTM embeddings to compute similarity matrix
   * The result is a similarity metric for each speaker at n moment in time
 * Make sure to install resemblyzer, pytorch, and matplotlib
-* Clone the repo and run the diarization_demo.py script from your terminal located in the diarization directory.
-* You can place any audio file (.mp3) into the audio directory which you can specify on line 13.
+* You can place any audio file (.wav) into the audio directory which you can specify on line 13.
+* Run the diarization_demo.py script from your terminal located in the diarization directory.
 
 ## Website 
 * Set up Node.js environment 
