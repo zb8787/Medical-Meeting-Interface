@@ -28,8 +28,16 @@ Features:
 ![Back_end](/Flow_diagrams/Back_end.jpg)
 
 # Deploy
-## Google sentiment analysis
+## Google Natural Language
 * Follow the official Google Natural API quickstart guide to create an account and have access the API: https://cloud.google.com/natural-language/docs/quickstarts
+* Authenticate your Google credentials to begin utilizing the various natural language scripts in the diarization directory
+### Diarize and Transcribe - google_dt.py
+* Place your desired audio file in the audio_input directory. The following process will work with as many files as you place in the directory.
+* For audio longer than 1 minute, you the Google NL API requires a google storage buckets on your account. The code is set up to automatically utilize your storage bucket, you must specify your bucket's name on line 7.
+* Run the google_dt.py script. The diarized text-to-speech transcript will be written to the output_transcript folder as a text file.
+### Entity Analysis - entity_analysis.py
+
+### Tag Search - tag_search.py
 
 ## Resemblyzer
 * Explored with resemblyzer
@@ -37,6 +45,7 @@ Features:
   * The result is a similarity metric for each speaker at n moment in time
 * Make sure to install resemblyzer, pytorch, and matplotlib
 * Clone the repo and run the diarization_demo.py script from your terminal located in the diarization directory.
+* You can place any audio file (.mp3) into the audio directory which you can specify on line 13.
 
 ## Website 
 * Set up Node.js environment 
