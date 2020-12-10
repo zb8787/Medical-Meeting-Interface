@@ -1,0 +1,14 @@
+Doctor: How are you? What can I help you today?
+Patient: I have been having some wired symptoms for days.
+Doctor: What kind of symptons and what is the duration of the symptoms?
+Patient: I have been having trouble breathing and feeling very fatigue lately, for around 5 days.
+Doctor: Are you taking any medications?
+Patient: Not recently.
+Doctor: Do you have any allergy history?
+Patient: I am allergic to dust and pollen.
+Doctor: I am gonna ask you to take some basic medical tasks before we can proceed.
+Patient: Sounds great.
+Doctor: Before you come into the clinic, you will need to take a COVID 19 test 48 hours before the visit. 
+Patient: That's fine.
+Doctor: I will transfer you to the front desk to schedule an appointment.
+Patient: Thanks, have a great day.
