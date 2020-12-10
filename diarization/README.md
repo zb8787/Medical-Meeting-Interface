@@ -9,3 +9,11 @@ Included in this directory is an .mp3 audio file for the demo, but this must be 
 google_dt.py:\
 This takes an .mp3 file as input (in the input_audio directory) and outputs a speaker diarized transcript (in the output_transcript directory).\
 Must authenticate via google cloud, and must have a google cloud storage bucket created prior to running code.
+
+entity_analysis.py:\
+This takes a text file as input (in the output_transcript directory) and outputs a sentiment analysis report on the contents of the text file.\
+Must authenticate via google cloud.
+
+tag_search.py:\
+This takes a text file as input (in the output_transcript directory) and outputs a search for the specified SearchTerm (line 13) with and without context.
+
