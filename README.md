@@ -4,7 +4,7 @@ Focus: This project focuses on improving the quality of telecommunications betwe
 
 Motivation: Due to COVID-19, almost all doctor appointments start from a phone call examination. The current system can be improved to facilitate better patient and doctor communication. 
 
-Need: A better way to understand phone call or virtual examination content, and in turn optimizing virtual medical appointments.
+Need: A better way to understand phone call or virtual examination content, and in turn optimize virtual medical appointments.
 
 Goal: An interface for patients and doctors to upload recorded telecommunications, and perform further analysis on the recordings.
 
@@ -104,7 +104,15 @@ A successful case would look like this before submit.
 ![4](/screenshoots/4.PNG)
 The result page will look like this, according to the previous submission.
 ![5](/screenshoots/5.PNG)
+## Diarization Output
+![Diarization Output](/screenshoots/output_transc.jpg)
+## Sentiment Output
+![Sentiment Output](/screenshoots/sentim.jpg)
+## Tag Search Output
+![tag search 1](/screenshoots/tag1.jpg)
+![tag search 2](/screenshoots/tag2.jpg)
 ## Resemblyzer
+![Resemblyzer demo](/screenshoots/Resemb.jpg)
 
 # Future steps
 * Incorporate sentiment analysis into the website
