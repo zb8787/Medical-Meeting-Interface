@@ -36,8 +36,14 @@ Features:
 * For audio longer than 1 minute, you the Google NL API requires a google storage buckets on your account. The code is set up to automatically utilize your storage bucket, you must specify your bucket's name on line 7.
 * Run the google_dt.py script. The diarized text-to-speech transcript will be written to the output_transcript folder as a text file.
 ### Entity Analysis - entity_analysis.py
-
+* Specify the directory where the transcript text files are located on line 1
+* Specify the name of the transcript on line 3
+* Run the entity_analysis.py script.
 ### Tag Search - tag_search.py
+* Specify the directory where the transcript text files are located on line 1
+* Specify the name of the transcript on line 3
+* Specify SearchTerm on line 13
+* Run the tag_search.py script. Script will perform search with and without context.
 
 ## Resemblyzer
 * Explored with resemblyzer
