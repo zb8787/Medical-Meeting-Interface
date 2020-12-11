@@ -67,7 +67,7 @@ Features:
   * http://localhost:8080
 
 ## Additional Set Up
-### The website will not run with the above set up, for two reasons: 1, environment variables are not set up and the database is not set up in the correct form.
+### The website will not run with the above set up, for two reasons: environment variables are not set up and the database is not set up in the correct form.
 To solve environmental variable issue:
 create an `.env` file to store all the environmental varibles
 * `SECRETKEY = <Your secret>`
