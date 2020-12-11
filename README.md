@@ -78,7 +78,7 @@ create an `.env` file to store all the environmental varibles
   
 To setup the databse:
 * Download Postman: https://www.postman.com/
-* Run server end serperately
+* Run server end only
 * Use back end URL: http://localhost:3000 to generate administrative account for patient and doctor
 * Under both administrative account: generate preset topics 
   * The form follows such:
